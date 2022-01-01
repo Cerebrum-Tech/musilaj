@@ -2,16 +2,15 @@
 
 ## Takip Sistemi Bileşenleri
 
-Uydu ve dron görüntüleri ile gerçekleştirilen uzaktan algılama teknikleri ile
+Uydu ve dron görüntüleri ile gerçekleştirilen uzaktan algılama teknikleri ile 
 
-- müsilajın yayılımı,
-  
-- deniz suyu sıcaklığı,
-  
-- zararlı alg yayılımı,
-  
+- müsilajın yayılımı, 
+
+- deniz suyu sıcaklığı, 
+
+- zararlı alg yayılımı, 
+
 - petrol sızıntısı ve kirlilik yayılımı
-  
 
 gibi durumlar takip edilebilir. Buna ek olarak müsilaj oluşumu ve Marmara Denizi'nin sağlığına etki edecek bazı parametrelerin deniz üzerine yerleştirilen istasyonlar ile takibi yapılabilir. Farklı yaklaşımlarla toplanan çok katmanlı veriler derlenerek, Marmara Denizi'nin dijital ikizi olarak nitelendirilecek bir platformda sunulabilir.
 
@@ -20,9 +19,8 @@ Bu yaklaşıma [Marmara Denizi Koruma Eylem Planı'nın](https://twitter.com/mur
 > 12- Çevre ve Şehircilik Bakanlığı tarafından yapılan çalışmalar çerçevesinde alıcı ortama deşarj yapan atık su arıtma tesislerinin tamamı 7/24 online izlenecek. Marmara Denizi'ndeki 91 izleme noktası 150'ye çıkarılacak. Türkiye Çevre Ajansı eliyle Marmara Denizi ile ilişkili tüm havzalardaki denetimler uzaktan algılama, uydu ve erken uyarı sistemleri, insansız hava araçları ve radar sistemleri kullanılarak artırılacak.
 
 - [ ] <u>Maddede bahsedilen izleme noktalarının mevcut durumu ve sayılarının nasıl arttırılacağı araştırılmalı.</u>
-  
+
 - [ ] <u>IoT destekli sabit yüzen istasyonlarla -duba- müzilaj ve deniz kirliliğine dair hangi ölçümlerin yapılabileceği araştırılmalı.</u>
-  
 
 ### Uzaktan Algılama Yöntemi
 
@@ -46,35 +44,35 @@ Bu endeks şu şekilde formüle edilmiş ve bu alakalı bantları destekleyen t�
 
 22 Mart 2021 Sentinel-2 L2A - Görünür Işık
 
-![Ekran görüntüsü 20220101 192325png](file://C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-01%20192325.png)
+![Ekran görüntüsü 2022-01-01 192325.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-01%20192325.png)
 
 22 Mart 2021 Sentinel-2 L2A - NDWI
 
-![Ekran görüntüsü 20220102 001702png](file://C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-02%20001702.png)
+![Ekran görüntüsü 2022-01-02 001702.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-02%20001702.png)
 
-[Determination of Mucilage in The Sea of Marmara Using Remote Sensing Techniques with Google Earth Engine](https://www.researchgate.net/publication/352777348_Determination_of_Mucilage_in_The_Sea_of_Marmara_Using_Remote_Sensing_Techniques_with_Google_Earth_Engine_Determination_of_Mucilage_in_The_Sea_of_Marmara_Using_Remote_Sensing_Techniques_with_Google_Ear) (Acar, 2021) makalesinde çok daha kullanışlı bulduğum bir kaç formülün bileşimi kullanılmıştır. Bu model müsilajın mavi pikseller ile gösterildiği ve alakasız pek çok unsurun alpha layer ile atıldığı bir görüntü vermektedir.
+[Determination of Mucilage in The Sea of Marmara Using Remote Sensing Techniques with Google Earth Engine](https://www.researchgate.net/publication/352777348_Determination_of_Mucilage_in_The_Sea_of_Marmara_Using_Remote_Sensing_Techniques_with_Google_Earth_Engine_Determination_of_Mucilage_in_The_Sea_of_Marmara_Using_Remote_Sensing_Techniques_with_Google_Ear) (Acar, 2021) makalesinde çok daha kullanışlı bulduğum bir kaç formülün bileşimi kullanılmıştır. Bu model müsilajın mavi pikseller ile gösterildiği ve alakasız pek çok unsurun alpha layer ile atıldığı bir görüntü vermektedir. 
 
 Bu formüller ve Sentinel-2 L2A uydu görüntülerine ait bantlar şu şekilde açıklanmıştır:
 
-| Indexes | Abrivations | Equations | Referances |
-| --- | --- | --- | --- |
-| Normalized Difference Vegetation Index | NDVI | $\frac{NIR-RED}{NIR+RED}$ | (Rouse et al., 1974) |
-| Normalized Difference Water Index | NDWI | $\frac{GREEN-NIR}{GREEN+NIR}$ | (McFeeters, 1996) |
-| Modifed Normalized Difference Water Index | MNDWI | $\frac{GREEN-SWIR1}{GREEN+SWIR1}$ | (Xu, 2006) |
-| Automated Water Extraction Index | AWEI_nsh | 4 * (GREEN-SWIR1) -(0,25 * NIR + 2,75 * SWIR2) | (Feyisa et al., 2014) |
+| Indexes                                   | Abrivations | Equations                                      | Referances            |
+| ----------------------------------------- | ----------- |:----------------------------------------------:| --------------------- |
+| Normalized Difference Vegetation Index    | NDVI        | $\frac{NIR-RED}{NIR+RED}$                      | (Rouse et al., 1974)  |
+| Normalized Difference Water Index         | NDWI        | $\frac{GREEN-NIR}{GREEN+NIR}$                  | (McFeeters, 1996)     |
+| Modifed Normalized Difference Water Index | MNDWI       | $\frac{GREEN-SWIR1}{GREEN+SWIR1}$              | (Xu, 2006)            |
+| Automated Water Extraction Index          | AWEI_nsh    | 4 * (GREEN-SWIR1) -(0,25 * NIR + 2,75 * SWIR2) | (Feyisa et al., 2014) |
 
-| Band | Wavelength (nm) | Resolution (m) |
-| --- | --- | --- |
-| B2 (Blue) | 496.6 | 10  |
-| B3 (Green) | 560.0 | 10  |
-| B4 (Red) | 664.5 | 10  |
-| B8 (NIR) | 835.1 | 10  |
-| B11 (SWIR-1) | 1,613.7 | 20  |
-| B12 (SWIR-2) | 2,202.4 | 20  |
+| Band         | Wavelength (nm) | Resolution (m) |
+| ------------ | --------------- | -------------- |
+| B2 (Blue)    | 496.6           | 10             |
+| B3 (Green)   | 560.0           | 10             |
+| B4 (Red)     | 664.5           | 10             |
+| B8 (NIR)     | 835.1           | 10             |
+| B11 (SWIR-1) | 1,613.7         | 20             |
+| B12 (SWIR-2) | 2,202.4         | 20             |
 
 Diğer uyduların bantları ile eşleştirmek için aşağıdaki tablo yararlı olacaktır:
 
-![Ekran görüntüsü 20220102 010450png](file://C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-02%20010450.png)
+![Ekran görüntüsü 2022-01-02 010450.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-02%20010450.png)
 
 ##### Sentinel-2 Uydusu ile Müsilaj Haritası Çıkarma
 
@@ -98,7 +96,7 @@ return [(sample.B08 - sample.B04)/ (sample.B08 + sample.B04),  (sample.B03 - sam
 
 ###### 22 Mart 2021 Sentinel-2 L2A (Acar, 2021) formülleri ile oluşturulan ön izleme görüntüsü:
 
-![20220101175745imagepng](file://C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2022-01-01-17-57-45-image.png)
+![2022-01-01-17-57-45-image.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2022-01-01-17-57-45-image.png)
 
 Bu noktada elde edilen görüntü segmentasyona imkan veren bir görüntü işleme algoritması ile işlenerek doğrudan karar destek sistemini basleyecek bir formata dönüştürülebilir.
 
@@ -106,15 +104,15 @@ Bu noktada elde edilen görüntü segmentasyona imkan veren bir görüntü işle
 
 Görüntü işleme eğitimi uzun süreceği için daha basit bir yöntemle müsilaj ölçümü sağlayacak bir test tertip ettim. Müsilaj sadece mavi pikseller ile temsil edildiği için belli skalada mavi olan pikselleri sayma yoluna gittim. İzlediğim adımlar şu şekilde:
 
-1. Yukardaki Sentinel-2 uydusuna ait custom script ile denizin genelinin gözüktüğü bulutsuz 17 Mart 2021 gününden yüksek çözünürlüklü bir görüntü istedim:
+1) Yukardaki Sentinel-2 uydusuna ait custom script ile denizin genelinin gözüktüğü bulutsuz 17 Mart 2021 gününden yüksek çözünürlüklü bir görüntü istedim:
 
-![202105170000202105172359Sentinel2L2ACustomscript 5png](file://C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2021-05-17-00_00_2021-05-17-23_59_Sentinel-2_L2A_Custom_script%20(5).png)
+![2021-05-17-00_00_2021-05-17-23_59_Sentinel-2_L2A_Custom_script (5).png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2021-05-17-00_00_2021-05-17-23_59_Sentinel-2_L2A_Custom_script%20(5).png)
 
-2. Bu görüntünün altına siyah bir katman ekleyip denizin etrafındaki fazlalıkları cropladım:
+2) Bu görüntünün altına siyah bir katman ekleyip denizin etrafındaki fazlalıkları cropladım:
 
-![test2png](file://C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\test2.png)
+![test2.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\test2.png)
 
-3. Aşağıdaki python scripti ile mavi pikselleri saydım ve bu piksellerin temsil ettiği müsilaj ile kaplı alanı ve bu alanın Marmara'nın tümüne olan oranı nı hesapladım:
+3) Aşağıdaki python scripti ile mavi pikselleri saydım ve bu piksellerin temsil ettiği müsilaj ile kaplı alanı ve bu alanın Marmara'nın tümüne olan oranı nı hesapladım: 
 
 ```python
 import cv2
@@ -161,7 +159,7 @@ return [(sample.B05 - sample.B04)/ (sample.B05 + sample.B04),  (sample.B03 - sam
 
 24 Mart 2021 Landsat 8 L2 çıktısı şu şekilde oldu:
 
-![20220101181304imagepng](file://C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2022-01-01-18-13-04-image.png)
+![2022-01-01-18-13-04-image.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2022-01-01-18-13-04-image.png)
 
 - [ ] Neden mavi değil de siyah anlamadım kodu kontrol etmek lazım.
 
@@ -171,16 +169,15 @@ Deniz sıcaklığı harıtaları Landsat 8 gibi termal görüntüleme imkanı ve
 
 ###### 17 Mart Landsat 8 L2 Termal görüntü (B10 Bantı)
 
-![20220101183538imagepng](file://C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2022-01-01-18-35-38-image.png)
+![2022-01-01-18-35-38-image.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2022-01-01-18-35-38-image.png)
 
 ##### Deniz Kirliliği, Alg, Kloroplast-a, Yağ Sızıntısı Haritaları
 
 - [ ] Alg haritası için şu makaleyi incelemek faydalı olacaktır: [(O'Reilly et al., 1998)](https://sci-hub.se/https://doi.org/10.1029/98JC02160)
-  
-- [ ] Bu kaynakta Sentinel Hub için ilginç custom scriptler mevcut, incelenmesi faydalı olabilir: [A repository of custom scripts to be used with Sentinel Hub](https://github.com/sentinel-hub/custom-scripts)
-  
 
-Sentinel-1 SAR uydusu bulutlu havalarda bile deniz kirliliği, alg ve yağ sızıntısı bilgisi verebilmekte.
+- [ ] Bu kaynakta Sentinel Hub için ilginç custom scriptler mevcut, incelenmesi faydalı olabilir: [A repository of custom scripts to be used with Sentinel Hub](https://github.com/sentinel-hub/custom-scripts)
+
+Sentinel-1 SAR uydusu bulutlu havalarda bile deniz kirliliği, alg ve yağ sızıntısı bilgisi verebilmekte. 
 
 ###### Sentinel-1 ile Deniz Kirliliği Haritalandırma Custom Code
 
@@ -217,3 +214,5 @@ else {
 ```
 
 ###### 23 Mayıs Sentinel-1 SAR Deniz Kirliliği Haritası
+
+![Ekran görüntüsü 2022-01-02 020156.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-02%20020156.png)

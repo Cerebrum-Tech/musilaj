@@ -189,12 +189,12 @@ Sentinel-1 SAR uydusu bulutlu havalarda bile deniz kirliliği, alg ve yağ sız�
 var ORM = Math.log(0.01/(0.01+VV*2)); 
 
 if (ORM < [ 0] &&  VV< [ 0.018]&&  VH< [ 0.00126]) { 
-    
+
    return colorBlend   
-    (ORM,	            
+    (ORM,                
          [-1.6, -1.4, -1.2, -1, -.8, -.6, -.4, -.2, 0], 
         [     
-   
+
      [0,0,.1 ],
      [0,0,.4 ],
      [0,0,.8],
@@ -204,7 +204,7 @@ if (ORM < [ 0] &&  VV< [ 0.018]&&  VH< [ 0.00126]) {
      [1,.8,.2],
      [1,1,.4],
      [.5,.8,.3],
-           
+
 
       ]);
 }
