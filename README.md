@@ -104,13 +104,9 @@ Bu noktada elde edilen görüntü segmentasyona imkan veren bir görüntü işle
 
 Görüntü işleme eğitimi uzun süreceği için daha basit bir yöntemle müsilaj ölçümü sağlayacak bir test tertip ettim. Müsilaj sadece mavi pikseller ile temsil edildiği için belli skalada mavi olan pikselleri sayma yoluna gittim. İzlediğim adımlar şu şekilde:
 
-1) Yukardaki Sentinel-2 uydusuna ait custom script ile denizin genelinin gözüktüğü bulutsuz 17 Mart 2021 gününden yüksek çözünürlüklü bir görüntü istedim:
+1) Yukardaki Sentinel-2 uydusuna ait custom script ile denizin genelinin gözüktüğü bulutsuz 17 Mart 2021 gününden yüksek çözünürlüklü bir görüntü istedim.
 
-![2021-05-17-00_00_2021-05-17-23_59_Sentinel-2_L2A_Custom_script (5).png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2021-05-17-00_00_2021-05-17-23_59_Sentinel-2_L2A_Custom_script%20(5).png)
-
-2) Bu görüntünün altına siyah bir katman ekleyip denizin etrafındaki fazlalıkları cropladım:
-
-![test2.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\test2.png)
+2) Bu görüntünün altına siyah bir katman ekleyip denizin etrafındaki fazlalıkları cropladım.
 
 3) Aşağıdaki python scripti ile mavi pikselleri saydım ve bu piksellerin temsil ettiği müsilaj ile kaplı alanı ve bu alanın Marmara'nın tümüne olan oranı nı hesapladım: 
 
@@ -215,4 +211,4 @@ else {
 
 ###### 23 Mayıs Sentinel-1 SAR Deniz Kirliliği Haritası
 
-![Ekran görüntüsü 2022-01-02 020156.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-02%20020156.png)
+![Ekran görüntüsü 2022-01-02 020156.png](https://github.com/ozalperen/musilaj/raw/main/images/23%20May%C4%B1s%20Sentinel-1%20SAR%20Deniz%20Kirlili%C4%9Fi.png)
