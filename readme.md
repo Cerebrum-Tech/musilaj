@@ -44,11 +44,11 @@ Bu endeks şu şekilde formüle edilmiş ve bu alakalı bantları destekleyen t�
 
 22 Mart 2021 Sentinel-2 L2A - Görünür Işık
 
-![Ekran görüntüsü 2022-01-01 192325.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-01%20192325.png)
+![Ekran görüntüsü 2022-01-01 192325.png](./images/22%20Mart%202021%20Sentinel-2%20L2A%20-%20Görünür%20Işık.png)
 
 22 Mart 2021 Sentinel-2 L2A - NDWI
 
-![Ekran görüntüsü 2022-01-02 001702.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-02%20001702.png)
+![Ekran görüntüsü 2022-01-02 001702.png](./images/22%20Mart%202021%20Sentinel-2%20L2A%20-%20NDWI.png)
 
 [Determination of Mucilage in The Sea of Marmara Using Remote Sensing Techniques with Google Earth Engine](https://www.researchgate.net/publication/352777348_Determination_of_Mucilage_in_The_Sea_of_Marmara_Using_Remote_Sensing_Techniques_with_Google_Earth_Engine_Determination_of_Mucilage_in_The_Sea_of_Marmara_Using_Remote_Sensing_Techniques_with_Google_Ear) (Acar, 2021) makalesinde çok daha kullanışlı bulduğum bir kaç formülün bileşimi kullanılmıştır. Bu model müsilajın mavi pikseller ile gösterildiği ve alakasız pek çok unsurun alpha layer ile atıldığı bir görüntü vermektedir. 
 
@@ -96,7 +96,7 @@ return [(sample.B08 - sample.B04)/ (sample.B08 + sample.B04),  (sample.B03 - sam
 
 ###### 22 Mart 2021 Sentinel-2 L2A (Acar, 2021) formülleri ile oluşturulan ön izleme görüntüsü:
 
-![2022-01-01-17-57-45-image.png](https://github.com/ozalperen/musilaj/raw/main/images/22%20Mart%202021%20Sentinel-2%20L2A%20(Acar%2C%202021).png)
+![2022-01-01-17-57-45-image.png](./images/22%20Mart%202021%20Sentinel-2%20L2A%20(Acar%2C%202021).png)
 
 Bu noktada elde edilen görüntü segmentasyona imkan veren bir görüntü işleme algoritması ile işlenerek doğrudan karar destek sistemini basleyecek bir formata dönüştürülebilir.
 
@@ -155,7 +155,7 @@ return [(sample.B05 - sample.B04)/ (sample.B05 + sample.B04),  (sample.B03 - sam
 
 24 Mart 2021 Landsat 8 L2 çıktısı şu şekilde oldu:
 
-![2022-01-01-18-13-04-image.png](https://github.com/ozalperen/musilaj/raw/main/images/24%20Mart%202021%20Landsat%208%20L2.png)
+![2022-01-01-18-13-04-image.png](./images/24%20Mart%202021%20Landsat%208%20L2.png)
 
 - [ ] Neden mavi değil de siyah anlamadım kodu kontrol etmek lazım.
 
@@ -165,7 +165,7 @@ Deniz sıcaklığı harıtaları Landsat 8 gibi termal görüntüleme imkanı ve
 
 ###### 17 Mart Landsat 8 L2 Termal görüntü (B10 Bantı)
 
-![2022-01-01-18-35-38-image.png](https://github.com/ozalperen/musilaj/raw/main/images/17%20Mart%20Landsat%208%20L2%20Termal.png)
+![2022-01-01-18-35-38-image.png](./images/17%20Mart%20Landsat%208%20L2%20Termal.png)
 
 ##### Deniz Kirliliği, Alg, Kloroplast-a, Yağ Sızıntısı Haritaları
 
@@ -211,4 +211,4 @@ else {
 
 ###### 23 Mayıs Sentinel-1 SAR Deniz Kirliliği Haritası
 
-![Ekran görüntüsü 2022-01-02 020156.png](https://github.com/ozalperen/musilaj/raw/main/images/23%20May%C4%B1s%20Sentinel-1%20SAR%20Deniz%20Kirlili%C4%9Fi.png)
+![Ekran görüntüsü 2022-01-02 020156.png](./images/23%20May%C4%B1s%20Sentinel-1%20SAR%20Deniz%20Kirlili%C4%9Fi.png)
