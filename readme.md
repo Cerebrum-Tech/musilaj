@@ -72,7 +72,7 @@ Bu formüller ve Sentinel-2 L2A uydu görüntülerine ait bantlar şu şekilde a
 
 Diğer uyduların bantları ile eşleştirmek için aşağıdaki tablo yararlı olacaktır:
 
-![Ekran görüntüsü 2022-01-02 010450.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\Ekran%20görüntüsü%202022-01-02%20010450.png)
+![Ekran görüntüsü 2022-01-02 010450.png](.\images\uydu%20bant%20frekans%20tabloso.png)
 
 ##### Sentinel-2 Uydusu ile Müsilaj Haritası Çıkarma
 
@@ -96,7 +96,7 @@ return [(sample.B08 - sample.B04)/ (sample.B08 + sample.B04),  (sample.B03 - sam
 
 ###### 22 Mart 2021 Sentinel-2 L2A (Acar, 2021) formülleri ile oluşturulan ön izleme görüntüsü:
 
-![2022-01-01-17-57-45-image.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2022-01-01-17-57-45-image.png)
+![2022-01-01-17-57-45-image.png](https://github.com/ozalperen/musilaj/raw/main/images/22%20Mart%202021%20Sentinel-2%20L2A%20(Acar%2C%202021).png)
 
 Bu noktada elde edilen görüntü segmentasyona imkan veren bir görüntü işleme algoritması ile işlenerek doğrudan karar destek sistemini basleyecek bir formata dönüştürülebilir.
 
@@ -155,7 +155,7 @@ return [(sample.B05 - sample.B04)/ (sample.B05 + sample.B04),  (sample.B03 - sam
 
 24 Mart 2021 Landsat 8 L2 çıktısı şu şekilde oldu:
 
-![2022-01-01-18-13-04-image.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2022-01-01-18-13-04-image.png)
+![2022-01-01-18-13-04-image.png](https://github.com/ozalperen/musilaj/raw/main/images/24%20Mart%202021%20Landsat%208%20L2.png)
 
 - [ ] Neden mavi değil de siyah anlamadım kodu kontrol etmek lazım.
 
@@ -165,7 +165,7 @@ Deniz sıcaklığı harıtaları Landsat 8 gibi termal görüntüleme imkanı ve
 
 ###### 17 Mart Landsat 8 L2 Termal görüntü (B10 Bantı)
 
-![2022-01-01-18-35-38-image.png](C:\Users\alper\OneDrive%20-%20CEREBRUM%20TEKNOLOJI%20YAZILIM%20SANAYI%20VE%20TICARET\Masaüstü\pixel\images\2022-01-01-18-35-38-image.png)
+![2022-01-01-18-35-38-image.png](https://github.com/ozalperen/musilaj/raw/main/images/17%20Mart%20Landsat%208%20L2%20Termal.png)
 
 ##### Deniz Kirliliği, Alg, Kloroplast-a, Yağ Sızıntısı Haritaları
 
