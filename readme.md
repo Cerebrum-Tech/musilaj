@@ -72,7 +72,7 @@ Bu formüller ve Sentinel-2 L2A uydu görüntülerine ait bantlar şu şekilde a
 
 Diğer uyduların bantları ile eşleştirmek için aşağıdaki tablo yararlı olacaktır:
 
-![Ekran görüntüsü 2022-01-02 010450.png](.\images\uydu%20bant%20frekans%20tabloso.png)
+![Ekran görüntüsü 2022-01-02 010450.png](./images/uydu%20bant%20frekans%20tabloso.png)
 
 ##### Sentinel-2 Uydusu ile Müsilaj Haritası Çıkarma
 
