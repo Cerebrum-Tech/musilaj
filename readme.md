@@ -8,13 +8,29 @@ Uydu ve dron görüntüleri ile gerçekleştirilen uzaktan algılama teknikleri 
 
 - deniz suyu sıcaklığı, 
 
-- zararlı alg yayılımı, 
+- zararlı alg yayılımı (klorofil miktarı), 
 
 - petrol sızıntısı ve kirlilik yayılımı
 
-gibi durumlar takip edilebilir. Buna ek olarak müsilaj oluşumu ve Marmara Denizi'nin sağlığına etki edecek asidifikasyon, bulanıklık, oksijen düzeyi, su sıcaklığı, tuzluluk, klorofil gibi sualtı parametreleri ile rüzgar yönü/hızı gibi meterolojik veriler deniz üzerine yerleştirilen istasyonlar ile daha detaylı takip edilebilir. Farklı yaklaşımlarla toplanan çok katmanlı veriler derlenerek, Marmara Denizi'nin dijital ikizi olarak nitelendirilecek bir platformda sunulabilir.
+gibi durumlar takip edilebilir. Buna ek olarak akıllı şamandıralar ile müsilaj oluşumu ve Marmara Denizi'nin sağlığına etki edecek 
 
-Bu yaklaşıma [Marmara Denizi Koruma Eylem Planı'nın](https://twitter.com/murat_kurum/status/1401640842822045701/photo/1) 12 maddesinde şu şekilde değinilmiştir:
+- asidifikasyon, 
+
+- bulanıklık, 
+
+- oksijen düzeyi, 
+
+- su sıcaklığı, 
+
+- tuzluluk, 
+
+- klorofil miktarı gibi sualtı parametreleri ile 
+
+- rüzgar yönü/hızı 
+
+gibi meterolojik veriler daha detaylı takip edilebilir. Farklı yaklaşımlarla toplanan çok katmanlı veriler derlenerek, Marmara Denizi'nin dijital ikizi olarak nitelendirilecek bir platformda sunulabilir.
+
+Bu yaklaşıma bakanlığın [Marmara Denizi Koruma Eylem Planı'nın](https://twitter.com/murat_kurum/status/1401640842822045701/photo/1) 12 maddesinde şu şekilde değinilmiştir:
 
 > 12- Çevre ve Şehircilik Bakanlığı tarafından yapılan çalışmalar çerçevesinde alıcı ortama deşarj yapan atık su arıtma tesislerinin tamamı 7/24 online izlenecek. Marmara Denizi'ndeki 91 izleme noktası 150'ye çıkarılacak. Türkiye Çevre Ajansı eliyle Marmara Denizi ile ilişkili tüm havzalardaki denetimler uzaktan algılama, uydu ve erken uyarı sistemleri, insansız hava araçları ve radar sistemleri kullanılarak artırılacak.
 
