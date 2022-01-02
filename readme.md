@@ -12,15 +12,13 @@ Uydu ve dron görüntüleri ile gerçekleştirilen uzaktan algılama teknikleri 
 
 - petrol sızıntısı ve kirlilik yayılımı
 
-gibi durumlar takip edilebilir. Buna ek olarak müsilaj oluşumu ve Marmara Denizi'nin sağlığına etki edecek bazı parametrelerin deniz üzerine yerleştirilen istasyonlar ile takibi yapılabilir. Farklı yaklaşımlarla toplanan çok katmanlı veriler derlenerek, Marmara Denizi'nin dijital ikizi olarak nitelendirilecek bir platformda sunulabilir.
+gibi durumlar takip edilebilir. Buna ek olarak müsilaj oluşumu ve Marmara Denizi'nin sağlığına etki edecek asidifikasyon, bulanıklık, oksijen düzeyi, su sıcaklığı, tuzluluk, klorofil gibi sualtı parametreleri ile rüzgar yönü/hızı gibi meterolojik veriler deniz üzerine yerleştirilen istasyonlar ile daha detaylı takip edilebilir. Farklı yaklaşımlarla toplanan çok katmanlı veriler derlenerek, Marmara Denizi'nin dijital ikizi olarak nitelendirilecek bir platformda sunulabilir.
 
 Bu yaklaşıma [Marmara Denizi Koruma Eylem Planı'nın](https://twitter.com/murat_kurum/status/1401640842822045701/photo/1) 12 maddesinde şu şekilde değinilmiştir:
 
 > 12- Çevre ve Şehircilik Bakanlığı tarafından yapılan çalışmalar çerçevesinde alıcı ortama deşarj yapan atık su arıtma tesislerinin tamamı 7/24 online izlenecek. Marmara Denizi'ndeki 91 izleme noktası 150'ye çıkarılacak. Türkiye Çevre Ajansı eliyle Marmara Denizi ile ilişkili tüm havzalardaki denetimler uzaktan algılama, uydu ve erken uyarı sistemleri, insansız hava araçları ve radar sistemleri kullanılarak artırılacak.
 
 - [ ] <u>Maddede bahsedilen izleme noktalarının mevcut durumu ve sayılarının nasıl arttırılacağı araştırılmalı.</u>
-
-- [ ] <u>IoT destekli sabit yüzen istasyonlarla -duba- müzilaj ve deniz kirliliğine dair hangi ölçümlerin yapılabileceği araştırılmalı.</u>
 
 ### Uzaktan Algılama Yöntemi
 
@@ -212,3 +210,19 @@ else {
 ###### 23 Mayıs Sentinel-1 SAR Deniz Kirliliği Haritası
 
 ![Ekran görüntüsü 2022-01-02 020156.png](./images/23%20May%C4%B1s%20Sentinel-1%20SAR%20Deniz%20Kirlili%C4%9Fi.png)
+
+### Akıllı Şamandra
+
+Deniz suyu kalite ölçümü yapabilen şamandralar bulunmakta. Türkiye'de Koç Savunma tarafından aşağıdaki alet yeni tanıtılmış:
+
+[Turmepa - Akıllı Şamandıra Projesi:](https://www.turmepa.org.tr/basin-aciklamalari/akilli-samandira-projesi)
+
+> Fethiye Körfezi’ndeki deniz suyu kalitesini gözlemlemek ve tespit edilen verileri anlık olarak sunmak üzere DenizTemiz Derneği/ TURMEPA ve Fethiye Belediyesi iş birliğinde Koç Bilgi ve Savunma Teknolojileri tarafından Smartium Blue Akıllı Şamandıralı Ölçüm Sistemi Projesi geliştirildi. İMEAK Deniz Ticaret Odası Fethiye Şubesi ve Muğla Sıtkı Koçman Üniversitesi’nin de paydaşları arasında yer aldığı proje kapsamında geliştirilen sistemin deneme kurulumu, 15 Ekim Perşembe günü Fethiye Limanı, Aksazlar Mevkii’nde gerçekleştirildi.
+> 
+> Proje kapsamında marinalar, koylar, balık çiftliği çevresi gibi deniz alanlarının asidifikasyon, bulanıklık, oksijen düzeyi, su sıcaklığı, tuzluluk, klorofil gibi sualtı parametreleri ile rüzgar yönü/hızı gibi meterolojik veriler ölçülerek kayıt altına alınabilecek. Bunun için güneş paneli gibi kaynaklarla kendi güç ihtiyacını karşılayabilen, kendi konum ve durum bilgileri ile birlikte günün her saati raporlayan “akıllı” şamandıralar kullanılacak.
+
+Bu özelliklere yakın ticarileşmiş bir ürün olarak [MPC-Buoy - LG Sonic](https://www.lgsonic.com/products/mpc-buoy/) bulunmakta. 
+
+- [ ] [Contact | Receive a Free Quotation ](https://www.lgsonic.com/contact/) adresinden fiyat istenebilir.
+
+- [ ] Piyasadaki benzer ürünler araştırılmalı.
