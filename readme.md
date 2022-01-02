@@ -22,7 +22,7 @@ Bu yaklaşıma [Marmara Denizi Koruma Eylem Planı'nın](https://twitter.com/mur
 
 ### Uzaktan Algılama Yöntemi
 
-Uzaktan algılama sisteme ilişkin ayrıntılı bir inceleme İTÜ tarafından yayınlanan, [MARMARA DENİZİ’NDE DENİZ SALYASI SORUNU ile İlgili Görüş ve Öneriler](https://haberler.itu.edu.tr/docs/default-source/default-document-library/deniz-salyas%C4%B1-(musilaj)-itu_rapor.pdf?sfvrsn=54235df0_2) raporunda yer almaktadır. (Raporun 10-14'üncü sayfalarını okumak faydalı olacaktır.) Uydu görüntülerine ek olarak, dron ve diğer hava araçlarının görüntüleri hassas bölgelerin detaylı incelenmesinde önemli rol oynamaktadır. Uydu harici cihazlarda kullanılan kameraların yeterli dalgaboylarını sağlaması durumunda görüntü işleme açısından aşağıda uydu görüntüsü için anlatılanların dışında bir işlem gerekmemektedir.
+Uzaktan algılama sisteme ilişkin ayrıntılı bir inceleme İTÜ tarafından yayınlanan, [MARMARA DENİZİ’NDE DENİZ SALYASI SORUNU ile İlgili Görüş ve Öneriler](https://haberler.itu.edu.tr/docs/default-source/default-document-library/deniz-salyas%C4%B1-(musilaj)-itu_rapor.pdf?sfvrsn=54235df0_2) raporunda yer almaktadır. (Raporun 10-14'üncü sayfalarını okumak faydalı olacaktır.) Uydu görüntülerine ek olarak, dron ve diğer hava araçlarının görüntüleri; hassas bölgelerin detaylı incelenmesinde önemli rol oynamaktadır. Uydu harici cihazlarda kullanılan kameraların yeterli dalgaboylarını sağlaması durumunda görüntü işleme açısından aşağıda uydu görüntüsü için anlatılanların dışında bir işlem gerekmemektedir.
 
 #### Müsilajın Yayılımının Uydu Görüntüleriyle Haritalandırılması
 
@@ -48,7 +48,7 @@ Bu endeks şu şekilde formüle edilmiş ve bu alakalı bantları destekleyen t�
 
 ![Ekran görüntüsü 2022-01-02 001702.png](./images/22%20Mart%202021%20Sentinel-2%20L2A%20-%20NDWI.png)
 
-[Determination of Mucilage in The Sea of Marmara Using Remote Sensing Techniques with Google Earth Engine](https://www.researchgate.net/publication/352777348_Determination_of_Mucilage_in_The_Sea_of_Marmara_Using_Remote_Sensing_Techniques_with_Google_Earth_Engine_Determination_of_Mucilage_in_The_Sea_of_Marmara_Using_Remote_Sensing_Techniques_with_Google_Ear) (Acar, 2021) makalesinde çok daha kullanışlı bulduğum bir kaç formülün bileşimi kullanılmıştır. Bu model müsilajın mavi pikseller ile gösterildiği ve alakasız pek çok unsurun alpha layer ile atıldığı bir görüntü vermektedir. 
+[Determination of Mucilage in The Sea of Marmara Using Remote Sensing Techniques with Google Earth Engine](https://www.researchgate.net/publication/352777348_Determination_of_Mucilage_in_The_Sea_of_Marmara_Using_Remote_Sensing_Techniques_with_Google_Earth_Engine_Determination_of_Mucilage_in_The_Sea_of_Marmara_Using_Remote_Sensing_Techniques_with_Google_Ear) (Acar et al., 2021) makalesinde çok daha kullanışlı bulduğum bir kaç formülün bileşimi kullanılmıştır. Bu model müsilajın mavi pikseller ile gösterildiği ve alakasız pek çok unsurun alpha layer ile atıldığı bir görüntü vermektedir. 
 
 Bu formüller ve Sentinel-2 L2A uydu görüntülerine ait bantlar şu şekilde açıklanmıştır:
 
@@ -74,7 +74,7 @@ Diğer uyduların bantları ile eşleştirmek için aşağıdaki tablo yararlı 
 
 ##### Sentinel-2 Uydusu ile Müsilaj Haritası Çıkarma
 
-(Acar, 2021) makalesindeki formüller Sentinel Hub üzerinde oluşturulan bir javascript kodu ile işlenebilmektedir. Bu bağlamda, bu 4 formülü, RGB ve alpha layer katmanları olarak tanımlayan ve Sentinel-2 uydusunun alakalı bantlarını içeren aşağıdaki kodu hazırladım:
+(Acar et al., 2021) makalesindeki formüller Sentinel Hub üzerinde oluşturulan bir javascript kodu ile işlenebilmektedir. Bu bağlamda, bu 4 formülü, RGB ve alpha layer katmanları olarak tanımlayan ve Sentinel-2 uydusunun alakalı bantlarını içeren aşağıdaki kodu hazırladım:
 
 ###### Sentinel-2 Custom Script
 
@@ -92,7 +92,7 @@ return [(sample.B08 - sample.B04)/ (sample.B08 + sample.B04),  (sample.B03 - sam
 }  
 ```
 
-###### 22 Mart 2021 Sentinel-2 L2A (Acar, 2021) formülleri ile oluşturulan ön izleme görüntüsü:
+###### 22 Mart 2021 Sentinel-2 L2A (Acar et al., 2021) formülleri ile oluşturulan ön izleme görüntüsü:
 
 ![2022-01-01-17-57-45-image.png](./images/22%20Mart%202021%20Sentinel-2%20L2A%20(Acar%2C%202021).png)
 
@@ -102,9 +102,9 @@ Bu noktada elde edilen görüntü segmentasyona imkan veren bir görüntü işle
 
 Görüntü işleme eğitimi uzun süreceği için daha basit bir yöntemle müsilaj ölçümü sağlayacak bir test tertip ettim. Müsilaj sadece mavi pikseller ile temsil edildiği için belli skalada mavi olan pikselleri sayma yoluna gittim. İzlediğim adımlar şu şekilde:
 
-1) Yukardaki Sentinel-2 uydusuna ait custom script ile denizin genelinin gözüktüğü bulutsuz 17 Mart 2021 gününden yüksek çözünürlüklü bir görüntü istedim.
+1) Yukardaki Sentinel-2 uydusuna ait custom script ile denizin genelinin gözüktüğü bulutsuz 17 Mart 2021 gününden yüksek çözünürlüklü bir görüntü istedim. (resimleri iliştiremiyorum dosya boyutları çok yüksek.)
 
-2) Bu görüntünün altına siyah bir katman ekleyip denizin etrafındaki fazlalıkları cropladım.
+2) Bu görüntünün altına siyah bir katman ekleyip denizin etrafındaki fazlalıkları cropladım. 
 
 3) Aşağıdaki python scripti ile mavi pikselleri saydım ve bu piksellerin temsil ettiği müsilaj ile kaplı alanı ve bu alanın Marmara'nın tümüne olan oranı nı hesapladım: 
 
@@ -222,6 +222,15 @@ Deniz suyu kalite ölçümü yapabilen şamandralar bulunmakta. Türkiye'de Koç
 > Proje kapsamında marinalar, koylar, balık çiftliği çevresi gibi deniz alanlarının asidifikasyon, bulanıklık, oksijen düzeyi, su sıcaklığı, tuzluluk, klorofil gibi sualtı parametreleri ile rüzgar yönü/hızı gibi meterolojik veriler ölçülerek kayıt altına alınabilecek. Bunun için güneş paneli gibi kaynaklarla kendi güç ihtiyacını karşılayabilen, kendi konum ve durum bilgileri ile birlikte günün her saati raporlayan “akıllı” şamandıralar kullanılacak.
 
 Bu özelliklere yakın ticarileşmiş bir ürün olarak [MPC-Buoy - LG Sonic](https://www.lgsonic.com/products/mpc-buoy/) bulunmakta. 
+
+Ölçüm yapabildiği unsurllar şunlardır:
+
+- Chlorophyll α (green algae)
+- Phycocyanin (blue-green algae)
+- pH
+- Turbidity
+- Dissolved oxygen
+- Temperature
 
 - [ ] [Contact | Receive a Free Quotation ](https://www.lgsonic.com/contact/) adresinden fiyat istenebilir.
 
