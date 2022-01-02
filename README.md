@@ -46,7 +46,7 @@ Uzaktan algılama sisteme ilişkin ayrıntılı bir inceleme İTÜ tarafından y
 
 Şimdiye kadarki denemelerimde Sentinel Hub'ı kullandım. Kamuya açık uydu görüntülerine erişim sağlamak için platform yıllık 5 bin dolar istemektedir. Üyelik gerektiren Airbus Spot-7 ve WorldView uydu fotoğrafları ayrıca ücretlendirilmektedir. Ücretlendirmeye ait detaylı bilgi websitesinin [pricing ](https://www.sentinel-hub.com/pricing/)bölümünde mevcuttur.
 
-Orta ve yüksek çözünürlüklü uyduların aynı bölge üzerinden geçmeleri birkaç gün sürmektedir. Dolayısıyla, daha fazla zamana ait uydu verisi elde etmek için birden fazla uydunun görüntülerini incelemek faydalı olacaktır. <u>Bulutlu günlerde kirlilik takibi kısmen yapılabilirken, müsilaj yüzey haritası çıkarmak mümkün olmayacaktır.</u>
+Orta ve yüksek çözünürlüklü uyduların aynı bölgeyi tekrar ziyaret emeleri birkaç gün sürmektedir. Dolayısıyla, daha fazla güne ait uydu verisi elde etmek için birden fazla uydunun görüntülerini incelemek faydalı olacaktır. <u>Bulutlu günlerde kirlilik takibi kısmen yapılabilirken, müsilaj yüzey haritası çıkarmak uydu görüntüleri ile mümkün olmayacaktır.</u>
 
 Bulabildiğim kadarıyla müsilaj yayılımı takibinde kullanılabilecek 4 uydu mevcuttur. Bunlar kamuya açık görüntü sağlayan Landsat-8 ve Sentinel-2'nin yanı sıra ücretli abonelik gerektiren Airbus SPOT-7 ve Maxar WorldView uydularıdır. İTÜ raporunda yer alan bir diğer uydu MODIS'in çözünürlüğü bence yeterli değildir.
 
