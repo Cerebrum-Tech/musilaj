@@ -24,9 +24,9 @@ Bu yaklaşıma [Marmara Denizi Koruma Eylem Planı'nın](https://twitter.com/mur
 
 ### Uzaktan Algılama Yöntemi
 
-Uzaktan algılama sisteme ilişkin ayrıntılı bir inceleme İTÜ tarafından yayınlanan, [MARMARA DENİZİ’NDE DENİZ SALYASI SORUNU ile İlgili Görüş ve Öneriler](https://haberler.itu.edu.tr/docs/default-source/default-document-library/deniz-salyas%C4%B1-(musilaj)-itu_rapor.pdf?sfvrsn=54235df0_2) raporunda yer almaktadır. (Raporun 10-14'üncü sayfalarını okumak faydalı olacaktır.)
+Uzaktan algılama sisteme ilişkin ayrıntılı bir inceleme İTÜ tarafından yayınlanan, [MARMARA DENİZİ’NDE DENİZ SALYASI SORUNU ile İlgili Görüş ve Öneriler](https://haberler.itu.edu.tr/docs/default-source/default-document-library/deniz-salyas%C4%B1-(musilaj)-itu_rapor.pdf?sfvrsn=54235df0_2) raporunda yer almaktadır. (Raporun 10-14'üncü sayfalarını okumak faydalı olacaktır.) Uydu görüntülerine ek olarak, dron ve diğer hava araçlarının görüntüleri hassas bölgelerin detaylı incelenmesinde önemli rol oynamaktadır. Uydu harici cihazlarda kullanılan kameraların yeterli dalgaboylarını sağlaması durumunda görüntü işleme açısından aşağıda uydu görüntüsü için anlatılanların dışında bir işlem gerekmemektedir.
 
-#### Müsilajın Yayılımının Haritalandırılması
+#### Müsilajın Yayılımının Uydu Görüntüleriyle Haritalandırılması
 
 Ücretli ve ücretsiz uydu görüntülerine Google Earth ve [Sentinel Hub](https://www.sentinel-hub.com/) üzerinden erişmek mümkündür. Bu platformlar görsel arayüzlerinin yanında api destekleri sayesinde görüntülerin otomatik toplanması ve işlenmesine olanak sağlayacak bir altyapıya sahiptirler.
 
