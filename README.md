@@ -248,6 +248,10 @@ Bu özelliklere yakın ticarileşmiş bir ürün olarak [MPC-Buoy - LG Sonic](ht
 - Dissolved oxygen
 - Temperature
 
+Bunlara ek olarak müsilaj ile alakalı aşağıdaki ölçümlerin yapılması faydalı olacaktır:
+- Tuzluluk
+- Işık miktarı
+
 - [ ] [Contact | Receive a Free Quotation ](https://www.lgsonic.com/contact/) adresinden fiyat istenebilir.
 
 - [ ] Piyasadaki benzer ürünler araştırılmalı.
