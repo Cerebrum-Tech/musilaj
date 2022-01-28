@@ -1,5 +1,23 @@
 # Müsilaj Takip Projesi Notları
 
+## Dosyalar
+
+- [Fiyat ve maliyet dosyası](https://cerebrumteknoloji.sharepoint.com/:x:/s/AR-GE/EfAVLznGe45OugF_VGdBXkcBoOCzgIgYP5wfR5vz97HwBg?e=dyUIaM) (yarım milyon doları bulduk neredeyse)
+
+- [Sunum](https://cerebrumteknoloji.sharepoint.com/:p:/s/AR-GE/EZM9qKGPupxDqXZx9whRjuABU7OuysgN91cgFJPIwi3Dgg?e=XMywJN)
+
+## Durum güncellemesi
+
+[monday](https://cerebrumtechnologies.monday.com/boards/2216983369)
+
+- [x] Uydu ve dron için teknik fizibilite tamamlandı
+
+- [x] Akıllı şamandra ile ilgili Koç Savunma ile görüşüldü, fiyat alındı, partnerlik ihtimali değerlendirildi
+
+- [x] Zyrone drone için teklif alındı
+
+- [ ] Projelendirme ve ekonomik fizibilite için bakanlık görüşmesi bekleniyor.
+
 ## Takip Sistemi Bileşenleri
 
 Uydu ve dron görüntüleri ile gerçekleştirilen uzaktan algılama teknikleri ile 
@@ -249,9 +267,11 @@ Bu özelliklere yakın ticarileşmiş bir ürün olarak [MPC-Buoy - LG Sonic](ht
 - Temperature
 
 Bunlara ek olarak müsilaj ile alakalı aşağıdaki ölçümlerin yapılması faydalı olacaktır:
+
 - Tuzluluk
+
 - Işık miktarı
 
 - [ ] [Contact | Receive a Free Quotation ](https://www.lgsonic.com/contact/) adresinden fiyat istenebilir.
 
-- [ ] Piyasadaki benzer ürünler araştırılmalı.
+- [x] Piyasadaki benzer ürünler araştırılmalı.
